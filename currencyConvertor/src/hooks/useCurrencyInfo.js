@@ -5,7 +5,6 @@ function useCurrencyInfo(currency) {
   const [data, setData] = useState({});
 
   useEffect(() => {
-
     fetch(
       `https://v6.exchangerate-api.com/v6/d906671dc2c8b98ada1a5da5/latest/${currency}`
     )
