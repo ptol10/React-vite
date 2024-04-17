@@ -11,9 +11,7 @@ function useCurrencyInfo(currency) {
     )
       .then((res) => res.json())
       .then((responseData) => {
-
         setData(responseData.conversion_rates);
-
         console.log(responseData);
       })
       .catch((error) => {
